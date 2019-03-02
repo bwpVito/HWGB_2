@@ -7,4 +7,5 @@ while a.count("выйти")!=1:
     else:
         a.append(b)
 for i in range(len(a)):
-    print("{:>10s}".format(a[i]))
+    #Без F строк
+    print(i ,"{:>10s}".format(a[i]))
