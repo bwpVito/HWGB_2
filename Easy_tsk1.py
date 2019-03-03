@@ -9,3 +9,4 @@ while a.count("выйти")!=1:
 for i in range(len(a)):
     #Без F строк
     print(i ,"{:>10s}".format(a[i]))
+    #print(f"{i} {a[i]}")
